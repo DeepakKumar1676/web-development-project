@@ -1,0 +1,49 @@
+<HEAD>
+<TITLE>ORDER FORM</TITLE>
+</HEAD>
+<BODY TEXT="#00008B" BGCOLOR="#90EE90">
+<CENTER><H1><B>Online Order Form</B></H3></CENTER>
+<P> Please enter your name, billing addressa and shipping address. Please do
+not forget the order number from our online catalog listings. thanks for shopping
+BogCorp!</P>
+<FORM METHOD="SEND" ACTION="https://www.flipkart.com/">
+<HR>
+Please enter a full name and address for BILLING purposes:<BR><BR>
+First Name    : <INPUT TYPE="Text" Name="first" SIZE="25" MAXLENGTH="24"><BR><BR>
+Last Name     : <INPUT TYPE="Text" Name="last" SIZE="35" MAXLENGTH="34"><BR><BR>
+Address       : <INPUT TYPE="Text" Name="address" SIZE="60"
+MAXLENGTH="59"><BR><BR>
+City          : <INPUT TYPE="Text" Name="city" SIZE="25" MAXLENGTH="24"><BR><BR>
+State         : <INPUT TYPE="Text" Name="state" SIZE="3" MAXLENGTH="2"><BR><BR>
+Zip           : <INPUT TYPE="Text" Name="zip" SIZE="6" MAXLENGTH="5"<BR><BR>
+<HR><BR><BR>
+<INPUT TYPE="CHECKBOX" NAME="same_add"> Check if Shipping Address is
+different from Mailing Address<BR><BR>
+<HR>
+<TEXTAREA NAME="ship_add" ROWS="3" COLS="60" WARP="PHYSICAL"> Enter
+shipping address here if different from above. </TEXTAREA><BR><BR>
+<HR>
+Please enter the code for the product you wish to purchase:
+<INPUT TYPE="TEXT" NAME="prod_num" SIZE="7" MAXLENGTH="6"><BR><BR>
+<HR>
+How would like to pay for this? <BR>
+<SELECT NAME="credit">
+<OPTION SELECTED VALUE="must"> MasterCard
+<OPTION VALUE="visa"> Visa
+<OPTION VALUE="amex"> American Express
+<OPTION VALUE="disc"> Discover
+</SELECT>
+Please enter the card number: <INPUT TYPE="TEXT" NAME="card_num" SIZE="17"
+MAXLENGTH="16"><BR><BR>
+Expiration date (01/2005): <INPUT TYPE="TEXT" NAME="exp_date" SIZE="10"
+MAXLENGTH="9"><BR><BR><HR>
+<BR>
+Please take care that everything is filled out correctly, then click "Submit Order." If
+you would like, you can select the "Reset" button to start again.
+Clicking the "Submit Order" button will send your orfer to BigCorp and your credit
+card will be charged.<BR><BR>
+<INPUT TYPE="reset">
+<INPUT TYPE="submit" VALUE="Submit Order">
+</FORM>
+</BODY>
+</HTML>
